@@ -16,7 +16,7 @@
 
   <description>
     <p>
-      Normally you use LibRedirect browser extension to redirect from e.g reddit.com/post =>
+      Normally you use LibRedirect browser extension to redirect from e.g reddit.com/post =&gt;
       libreddit-instance.xyz/post. This does have problems like with reddit limiting requests from a
       single ip, to you sending your data to an unkown instance. LibRedirect Frontends Manager let's
       you to run those frontends locally on your computer. For anonymizing your IP, use Lokinet or a

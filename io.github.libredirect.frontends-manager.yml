@@ -15,7 +15,7 @@ finish-args:
   - --share=network
   - --device=dri
 
-modules:  
+modules:
   - shared-modules/libappindicator/libappindicator-gtk3-12.10.json
   - name: webkit2gtk-4.0
     sources:
@@ -54,7 +54,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/libredirect/frontends_manager.git
-        tag: v1.0.1
+        tag: v1.1.0
         x-checker-data:
           type: git
           tag-pattern: ^v((?:\d+.)*\d+)$
