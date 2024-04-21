@@ -15,7 +15,7 @@ finish-args:
   - --share=network
   - --device=dri
 
-modules:  
+modules:
   - shared-modules/libappindicator/libappindicator-gtk3-12.10.json
   - name: webkit2gtk-4.0
     sources:
@@ -49,15 +49,15 @@ modules:
             sha256: 43ce0f02ecdcdc723b2475575563ddb192e988c886d368260bc0a63aee3ac400
         cleanup:
           - '*'
-  
   - name: libredirect-frontends-manager
     sources:
       - type: git
         url: https://github.com/libredirect/frontends_manager.git
-        tag: v1.0.1
+        tag: v1.1.0
         x-checker-data:
           type: git
           tag-pattern: ^v((?:\d+.)*\d+)$
+        commit: 6ff6da6e8ba17b4711e0484665d37a308b166f0b
       - type: file
         path: io.github.libredirect.frontends-manager.metainfo.xml
       - type: file

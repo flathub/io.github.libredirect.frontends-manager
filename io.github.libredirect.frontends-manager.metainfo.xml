@@ -16,14 +16,14 @@
 
   <description>
     <p>
-      Normally you use LibRedirect browser extension to redirect from e.g reddit.com/post =>
+      Normally you use LibRedirect browser extension to redirect from e.g reddit.com/post =&gt;
       libreddit-instance.xyz/post. This does have problems like with reddit limiting requests from a
       single ip, to you sending your data to an unkown instance. LibRedirect Frontends Manager let's
       you to run those frontends locally on your computer. For anonymizing your IP, use Lokinet or a
       VPN.
     </p>
   </description>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
 
   <launchable type="desktop-id">io.github.libredirect.frontends-manager.desktop</launchable>
   <screenshots>
@@ -34,6 +34,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.0" date="2024-04-21"/>
     <release version="1.0.0" date="2023-09-15">
       <description>
         <p>Flatpak release</p>
