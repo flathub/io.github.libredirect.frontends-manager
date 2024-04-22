@@ -49,7 +49,6 @@ modules:
             sha256: 43ce0f02ecdcdc723b2475575563ddb192e988c886d368260bc0a63aee3ac400
         cleanup:
           - '*'
-  
   - openssl-1.1.yaml
 
   - name: libredirect-frontends-manager
@@ -60,6 +59,7 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^v((?:\d+.)*\d+)$
+        commit: d3dbcae4d08efc0051670794851e26bdfa3c42a8
       - type: file
         path: io.github.libredirect.frontends-manager.metainfo.xml
       - type: file
